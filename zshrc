@@ -39,8 +39,8 @@ alias lla='ls -la'
 local USER='%{$fg[green]%}%n%{$reset_color%}'
 local HOST='%{$fg[cyan]%}%m%{$reset_color%}'
 local DIR='%{$fg_bold[blue]%}%~/%{$reset_color%}'
-local ARROW='%{$fg_bold[yellow]%}?%{$reset_color%}'
-local ERROR='%{$fg[red]%}%(?..?)%{$reset_color%}'
+local ARROW='%{$fg_bold[yellow]%}≫%{$reset_color%}'
+local ERROR='%{$fg[red]%}%(?..⛔)%{$reset_color%}'
 
 PROMPT="[$USER@$HOST: $DIR]$prompt_newline$ARROW "
 RPROMPT="$ERROR "
